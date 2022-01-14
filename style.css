@@ -1,0 +1,243 @@
+/* Default CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fix-width{
+    width: 70%;
+    margin: 0% auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-center {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+
+/* header css start */
+
+.header {
+    background-color: #8e44ad;
+}
+.header-left {
+    width: 30%;
+}
+.header-left img {
+    /* width: 50px; */
+    height: 80px;
+}
+.header-right {
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-right: -4px;
+    list-style: none;
+}
+.header-right ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-right: 1px solid #ddd;
+    height: 63px;
+    line-height: 63px;
+}
+.header-right ul li a:hover{
+    background-color: #9b59b6;
+}
+/* Start Banner  */
+.banner-section {
+    background: url(./img/background.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+}
+.content {
+    text-align: center;
+}
+.content h1 {
+    background-color: #3498db6b;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.content h3 {
+    background-color: #16a08475;
+    color: #fff;
+    display:block;
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin: auto;
+}
+/* Start about */
+.about-section {
+    background-color: #f7f9ff;
+    padding: 50px 0;
+}
+.about-content{
+    text-align: center;
+}
+.about-content h4 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.about-content p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* Start Services */
+
+.services {
+    margin: 50px 0;
+    width: 32.33%;
+    border: 1px solid #ddd;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    text-align: center;
+}
+.services span{
+    display: inline-block;
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 35px;
+    height: 70px;
+    width:70px;
+    line-height: 70px;
+    border-radius: 20px 0 20px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.services h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+/* Content Section Start */
+
+.content-section {
+    background-color: #f7f9ff;
+    margin: 20px 0;
+    margin-bottom: 0;
+    padding: 50px 0
+}
+
+.content-left{
+    width: 70%;
+}
+.content-box {
+    margin-bottom: 30px;
+}
+.content-box img {
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+.content-box div p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.content-right {
+    width: 30%;
+}
+
+.notice-board {
+    /* text-align: right; */
+}
+.notice-board .notice {
+    margin: 20px 0;
+    background-color: #14172673;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: auto;
+}
+
+/* Footer section */
+.footer {
+    background-color: #141727;
+    padding: 20px 0;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-left p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+    height: 50px;
+    line-height: 50px;
+}
+.footer-left p a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+    transition: .4s;
+}
+.footer-left p a span {
+    font-size: 25px;
+    color: aqua;
+}
+.footer-left p a:hover{
+    letter-spacing: 4px;
+}
+
+.footer-right {
+    width: 50%;
+    text-align: right;
+}
+.footer-right ul li{
+    display: inline-block;
+}
+.footer-right ul li a {
+    text-decoration: none;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.footer-right ul li a i{
+    transition: .4s;
+    transform: scale(.9.5);
+}
+.footer-right ul li a i:hover{
+    transform: scale(1.2);
+    color: red;
+}
